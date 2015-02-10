@@ -25,7 +25,7 @@ class Peer(object):
 
 		# carregar ficheiro de configuracao
 		if configpath: self.options = self.parseconfig(configpath)
-		else: self.options = self.parseconfig('./p2p_bootstrap.conf')
+		else: self.options = self.parseconfig('./p2p.conf')
 
 		# endereco ip+porta do peer
 		self.peeraddr = \
