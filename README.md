@@ -1,12 +1,3 @@
-# This is the README
-                
->Interface commands:
-FIND
-GET   
-REGISTER
-STATUS  
+## P2P FTP
 
->Internal commands:
-search
-hello
-chunk# p2p-protocol
+P2P protocol that enables file sharing between peers in a LAN network
